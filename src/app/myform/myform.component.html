@@ -1,0 +1,16 @@
+<form #myForm="ngForm" (submit)="getFormDetailes(myForm.value)">
+
+    <input type="text" ngModel name="firstName" placeholder="First Name">
+    <br>
+    <input type="text" ngModel name="lastName" placeholder="Last Name">
+    <br>
+    <input type="text" ngModel name="passward" placeholder="Passward">
+    <br>
+    <button>Submit</button>
+</form>
+<br><br>
+<ul>
+    <li> First Name {{user.firstName}}</li>
+    <li> Last Name {{user.lastName}}</li>
+    <li> Passward {{user.passward}}</li>
+</ul>

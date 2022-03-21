@@ -1,0 +1,10 @@
+<p>Hello {{user.name}} </p>
+<p>Email {{user.email}} </p>
+<p>Age  {{getAge(user.birthDate)}}</p>
+
+<div [ngSwitch]="user.contact">
+
+    <h1 *ngSwitchCase="'Phone'">📞</h1>
+    <h1 *ngSwitchCase="'Email'">📧</h1>
+    
+</div>
