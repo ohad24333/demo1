@@ -1,0 +1,12 @@
+.special{
+    color: brown;
+    background-color: blueviolet;
+}
+
+.style1{
+    font-size: large;
+    font-style: italic;
+}
+.style2{
+    font-family: 'Times New Roman', Times, serif;
+}
